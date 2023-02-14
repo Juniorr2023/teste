@@ -191,7 +191,7 @@ find_maven_basedir() {
   echo "${basedir}"
 }
 
-git update-index --chmod=+x gradlew
+git update-index --chmod=+x mvnw
 
 # concatenates all lines of a file
 concat_lines() {
