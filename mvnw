@@ -190,7 +190,7 @@ find_maven_basedir() {
   done
   echo "${basedir}"
 }
-chmod +x mvnw
+
 # concatenates all lines of a file
 concat_lines() {
   if [ -f "$1" ]; then
